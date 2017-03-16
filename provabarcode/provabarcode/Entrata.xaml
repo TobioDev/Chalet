@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="provabarcode.Entrata">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <Grid Padding="20">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="15*"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="30*"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="20*"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="15*"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="25*"/>
+      <ColumnDefinition Width="25*"/>
+      <ColumnDefinition Width="25*"/>
+      <ColumnDefinition Width="25*"/>
+    </Grid.ColumnDefinitions>
+
+    <StackLayout
+                 Padding="20"
+                 Orientation="Horizontal"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"
+                 Spacing="10"
+                 Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
+
+      <Image Source="http://images.clipartpanda.com/crab-clip-art-crab7.png"
+             Aspect="AspectFit"
+               />
+      <Label Text="Chalet Il Granchio Rosso" FontSize="20"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+    </StackLayout>
+
+    <Label Text="Ombrellone 15"
+           FontSize="25"
+           Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"
+           HorizontalOptions="Center"/>
+
+    <Image Source="http://www.residencevillabruna.it/images/ombrellone.png"
+           Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
+           Aspect="AspectFit"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+
+    <Label Text="Selezionare uno dei seguenti servizi:"
+           Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4"
+           HorizontalOptions="Start"/>
+
+    <Image Source="icona_01.png"
+           Aspect="AspectFit"
+           Grid.Row="4" Grid.Column="0"
+           x:Name="bottoneOmbrellone"/>
+    <Label Text="Attrezzatura"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Grid.Row="5" Grid.Column="0"/>
+
+    <Image Source="icona_02.png"
+           Aspect="AspectFit"
+           Grid.Row="4" Grid.Column="1"
+           x:Name="bottoneBar"/>
+    <Label Text="Ordinazioni"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Grid.Row="5" Grid.Column="1"/>
+
+    <Image Source="icona_03.png"
+           Aspect="AspectFit"
+           Grid.Row="4" Grid.Column="2"
+           x:Name="bottoneSos"/>
+    <Label Text="SOS"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Grid.Row="5" Grid.Column="2"/>
+
+    <Image Source="icona_04.png"
+           Aspect="AspectFit"
+           Grid.Row="4" Grid.Column="3"
+           x:Name="bottoneServizi"/>
+    <Label Text="Assistenza"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Grid.Row="5" Grid.Column="3"/>
+
+    <Button Text=" Chiamata Effettuata. In attesa di risposta. "
+            IsVisible="False"
+            Clicked="ChiamataRicevuta"
+            BackgroundColor="#E67E22"
+            Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            x:Name="bottoneChiamata"/>
+  </Grid>
+</ContentPage>

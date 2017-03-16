@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\Acr.BarCodes\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\zxing.monoandroid\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\ZXing.Net.Mobile\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Release\__library_projects__\Acr.BarCodes\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\__library_projects__\zxing.monoandroid\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\__library_projects__\ZXing.Net.Mobile\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\Acr.BarCodes.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\zxing.monoandroid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\manu9\Source\Repos\Chalet\provabarcode\provabarcode.Droid\obj\Release\__library_projects__\ZXing.Net.Mobile.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

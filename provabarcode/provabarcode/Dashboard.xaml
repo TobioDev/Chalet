@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="provabarcode.Dashboard">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout Orientation="Vertical"
+               Padding="20"
+               Spacing="20">
+    <StackLayout Orientation="Horizontal"
+               Padding="20"
+               Spacing="20"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               HeightRequest="100">
+      <Image Source="http://icons.iconarchive.com/icons/sonya/swarm/256/Fast-Food-icon.png"
+             Aspect="AspectFit"/>
+      <Label Text="Richiesta Servizio Bar Ombrellone 15"
+             YAlign="Center"
+             FontSize="15"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal"
+               Padding="20"
+               Spacing="20"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               HeightRequest="100">
+      <Image Source="http://www.misskatecuttables.com/uploads/shopping_cart/9300/large_beach-umbrella4.png"
+            Aspect="AspectFit"/>
+      <Label Text="Richiesta Servizio Attrezzatura Ombrellone 21"
+             YAlign="Center"
+             FontSize="15"/>
+    </StackLayout>
+
+
+
+  </StackLayout>
+</ContentPage>

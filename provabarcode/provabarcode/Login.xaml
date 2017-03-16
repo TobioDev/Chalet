@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="provabarcode.Login">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout VerticalOptions="Fill"
+           Padding="20"
+           Spacing="50">
+
+    <Label Text="Chalet Risponde"
+           FontSize="4"
+           x:Name="titolo"
+           XAlign="Center"/>
+    <Entry x:Name="username"
+           Placeholder="Username"
+           />
+    <Entry x:Name="password"
+           Placeholder="Password"
+           IsPassword="True"
+           />
+    <Button Text="Login"
+            Clicked="Autorizza"/>
+    <Label x:Name="passDimenticata"
+           Text="Hai dimenticato Password o Username?"/>
+    <Label x:Name="registrazione"
+           Text="Non hai un username? Registrati qui per accedere."
+           XAlign="End"/>
+
+  </StackLayout>
+</ContentPage>
